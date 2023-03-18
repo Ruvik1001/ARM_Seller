@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainText">20sp</dimen>
+    <dimen name="h1">18sp</dimen>
+    <dimen name="h2">14sp</dimen>
+
+    <dimen name="marginLoginBefore">50dp</dimen>
+    <dimen name="marginLoginBefore2">100dp</dimen>
+    <dimen name="marginLR">30dp</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ARM_Seller</string>
+    <string name="preview" location="login">Добро пожаловать в АРМ продовца!\nПожалуйста, ведите учётные данные.</string>
+    <string name="log" location="login">Логин:</string>
+    <string name="pwd" location="login">Пароль:</string>
+    <string name="btn" location="login">Войти</string>
+
+    <string name="menu_1" location="main_menu_bar">Главное меню</string>
+    <string name="menu_2" location="main_menu_bar">Склад</string>
+    <string name="menu_3" location="main_menu_bar">Поступление</string>
+    <string name="menu_4" location="main_menu_bar">Мой профиль</string>
+    <string name="menu_5" location="main_menu_bar">Настройки приложения</string>
+</resources>

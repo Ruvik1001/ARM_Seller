@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "278854708633",
+    "project_id": "arm-seller",
+    "storage_bucket": "arm-seller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278854708633:android:cf957578a2784ad155f708",
+        "android_client_info": {
+          "package_name": "com.ruvik1001.arm_seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278854708633-2acifotcosmi5muqaajiiv0m9t24s0qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO-m8V4Poqfjef8iRMdchyNlSsudps80g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278854708633-2acifotcosmi5muqaajiiv0m9t24s0qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

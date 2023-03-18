@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:id="@+id/main_activity"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/login_Layout"
+        android:layout_width="417dp"
+        android:layout_height="746dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/login_Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginVertical="120dp"
+            android:gravity="center"
+            android:text="@string/preview"
+            android:textColor="@color/black"
+            android:textSize="@dimen/mainText" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginLoginBefore">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/login_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/marginLR"
+                    android:layout_marginEnd="@dimen/marginLR"
+                    android:text="@string/log"
+
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/h1" />
+
+                <EditText
+                    android:id="@+id/login_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/marginLR"
+                    android:layout_weight="1"
+                    android:autofillHints="username"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/login_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/marginLR"
+                    android:layout_marginEnd="@dimen/marginLR"
+                    android:text="@string/pwd"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/h1" />
+
+                <EditText
+                    android:id="@+id/login_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/marginLR"
+                    android:layout_weight="1"
+                    android:autofillHints="password"
+                    android:inputType="textPassword"
+                    tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/marginLoginBefore2"
+            android:backgroundTint="@color/white"
+            android:text="@string/btn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/h2" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
