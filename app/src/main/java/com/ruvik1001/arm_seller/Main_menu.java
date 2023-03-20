@@ -9,9 +9,14 @@ import android.os.Bundle;
 import android.util.Pair;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.google.android.material.snackbar.Snackbar;
+
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main_menu extends AppCompatActivity {
     public static ConstraintLayout menu_activity;
@@ -24,33 +29,6 @@ public class Main_menu extends AppCompatActivity {
         if (getIntent().getStringExtra("reaction") != null) {
             Snackbar.make(Main_menu.menu_activity, getIntent().getStringExtra("reaction"), Snackbar.LENGTH_SHORT).show();
         }
-//        loadMenu();
     }
-
-//    private void loadMenu() {
-//        ListView list = findViewById(R.id.menu_material);
-//        AdapterView<Atom> adapter = new AdapterView<Atom>() {
-//            @Override
-//            public Atom getAdapter() {
-//                return null;
-//            }
-//
-//            @Override
-//            public void setAdapter(Atom atom) {
-//
-//            }
-//
-//            @Override
-//            public View getSelectedView() {
-//                return this;
-//            }
-//
-//            @Override
-//            public void setSelection(int i) {
-//
-//            }
-//        }
-//    }
-
 
 }

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="instrumenty" type="ml">Инструменты</string>
-    <string name="kraski" type="ml">Краски</string>
-    <string name="napolnye_pokrytiya" type="ml">Напольное покрытие</string>
-    <string name="plitka" type="ml">Плитка</string>
-    <string name="skobyanye_izdelia" type="ml">Скобяные изделеия</string>
-    <string name="stolyarnye_izdelia" type="ml">Столярные изделия</string>
-    <string name="stroymaterialy" type="ml">Стройматериалы</string>
+
+    <array name="material_group">
+        <item>Инструменты</item>
+        <item>Краски</item>
+        <item>Напольное</item>
+        <item>Плитка</item>
+        <item>Скобяные</item>
+        <item>Столярные</item>
+        <item>Стройматериалы</item>
+    </array>
+
 </resources>

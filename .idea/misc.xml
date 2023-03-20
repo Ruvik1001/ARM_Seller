@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/app/src/main/res/drawable/empty_tall_divider.xml" value="0.295" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_main.xml" value="0.21" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_main2.xml" value="0.22916666666666666" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_main_menu.xml" value="0.2" />
