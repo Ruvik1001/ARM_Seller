@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/marginLoginBefore2"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/btn"
             android:text="@string/btn"
             android:textColor="@color/black"
             android:textSize="@dimen/h2" />

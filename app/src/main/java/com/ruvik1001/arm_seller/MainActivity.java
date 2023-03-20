@@ -45,12 +45,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private Boolean log() {
+        return true;
         /*
         * Base request
         * Was created some after...
         */
-        return login.first.equals(new String("John1999")) &&
-                login.second.equals(new String("Gfhjkm01"));
+//        return login.first.equals(new String("John1999")) &&
+//                login.second.equals(new String("Gfhjkm01"));
     }
 
     @Override
@@ -58,6 +59,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Objects.requireNonNull(this.getSupportActionBar()).hide();
         setContentView(R.layout.activity_main);
+
+        //!!!!!!!!!!!!!!!!!!!!!!
+//        this.startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+        //!!!!!!!!!!!!!!!!!!!!!!
 
         main_activity = findViewById(R.id.main_activity);
         btnIn = (Button) findViewById(R.id.login_btn);
@@ -74,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
                             Intent intent = new Intent(MainActivity.this, Main_menu.class);
                             intent.putExtra("reaction", "Successful");
                             startActivity(intent);
+                            finish();
+                            return;
                         }
                         else {
                             reaction("Wrong username or password!", "Ok");
@@ -82,5 +89,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+
+
     }
 }

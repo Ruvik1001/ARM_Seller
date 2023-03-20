@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="me">
+        <item name="FIO">Руднев Виктор Владимирович</item>
+        <item name="age">19 лет</item>
+        <item name="country">Москва</item>
+        <item name="special">Любит Гришину С.А.</item>
+    </array>
+
+    <array name="params">
+        <item>Тёмная тема</item>
+        <item>Отображение в сети</item>
+        <item>Вибрация при нажатии</item>
+    </array>
+</resources>

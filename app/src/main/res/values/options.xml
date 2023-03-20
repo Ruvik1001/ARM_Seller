@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings">
+        <item>Аккаунт</item>
+        <item>Размер шрифта</item>
+        <item>Режим чтения</item>
+        <item>О приложении</item>
+        <item>Обратная связь</item>
+        <item>Авторы</item>
+    </string-array>
+</resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ARM_Seller</string>
+    <string name="app_name">АРМ продовца стройматериалов</string>
     <string name="preview" location="login">Добро пожаловать в АРМ продовца!\nПожалуйста, ведите учётные данные.</string>
     <string name="log" location="login">Логин:</string>
     <string name="pwd" location="login">Пароль:</string>
@@ -10,4 +10,21 @@
     <string name="menu_3" location="main_menu_bar">Поступление</string>
     <string name="menu_4" location="main_menu_bar">Мой профиль</string>
     <string name="menu_5" location="main_menu_bar">Настройки приложения</string>
+    <string name="title_activity_my_options">my_options</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings">SettingsActivity</string>
 </resources>

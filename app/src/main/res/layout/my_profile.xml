@@ -5,11 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blue"
-    android:id="@+id/main_menu"
-    tools:context=".Main_menu">
+    tools:context=".MyProfileActivity">
 
     <LinearLayout
-        android:id="@+id/menu_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -18,17 +16,16 @@
             android:id="@+id/menu_bar_scroll"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:scrollbars="none"
             android:orientation="horizontal"
+            android:scrollbars="none"
             tools:ignore="MissingConstraints">
 
             <HorizontalScrollView
                 android:id="@+id/menu_bar_horizontal_scroll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:scrollbars="none"
                 android:orientation="horizontal"
-                >
+                android:scrollbars="none">
 
                 <LinearLayout
                     android:id="@+id/menu_bar_liner"
@@ -53,8 +50,7 @@
                         android:layout_marginEnd="@dimen/marginLR"
                         android:text="@string/menu_2"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/h1"
-                        />
+                        android:textSize="@dimen/h1" />
 
                     <TextView
                         android:id="@+id/menu_bar_3"
@@ -86,69 +82,43 @@
             </HorizontalScrollView>
         </ScrollView>
 
-        <ScrollView
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="10dp"
             android:backgroundTint="@color/spirit">
 
-            <LinearLayout
-                android:layout_width="match_parent"
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                tools:srcCompat="@tools:sample/avatars"
+                android:backgroundTint="@color/spirit"/>
+
+            <TextView
+                android:id="@+id/myInfo"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_margin="@dimen/marginLR"
-                android:layout_gravity="center_vertical"
-                android:showDividers="middle"
+                android:layout_toRightOf="@id/imageView11"
+                android:text="TextView"
+                android:backgroundTint="@color/spirit"/>
+
+            <ListView
+                android:id="@+id/lvMy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imageView11"
+                android:layout_marginTop="@dimen/marginLR"
                 android:divider="@drawable/empty_tall_divider"
                 android:backgroundTint="@color/spirit">
 
-                <Button
-                    android:id="@+id/kvitan"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@color/btn"
-                    android:text="Создать квитанцию"
-                    android:textColor="@color/black"
-                    android:textSize="14sp" />
-
-                <Button
-                    android:id="@+id/printov"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@color/btn"
-                    android:text="Принять товар"
-                    android:textColor="@color/black"
-                    android:textSize="14sp" />
-
-                <Button
-                    android:id="@+id/brack"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@color/btn"
-                    android:text="Брак"
-                    android:textColor="@color/black"
-                    android:textSize="14sp" />
-
-                <Button
-                    android:id="@+id/smena"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@color/btn"
-                    android:text="Смена"
-                    android:textColor="@color/black"
-                    android:textSize="14sp" />
-
-                <Button
-                    android:id="@+id/quit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@color/btn"
-                    android:text="Выход из системы"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"  />
-            </LinearLayout>
-
-        </ScrollView>
+            </ListView>
 
 
+        </RelativeLayout>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
