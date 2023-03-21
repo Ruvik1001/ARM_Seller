@@ -38,10 +38,12 @@
             android:layout_marginTop="5dp"/>
 
         <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/div"
             android:layout_width="match_parent"
             android:layout_height="5dp"
-            android:layout_below="@id/sbtn"
-            android:id="@+id/div"/>
+            android:layout_below="@id/search_bar"
+            android:layout_marginTop="10dp"
+            app:dividerColor="@color/btn"/>
 
         <ListView
             android:layout_width="match_parent"

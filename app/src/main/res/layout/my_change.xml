@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyChangeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue">
+
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID смены: S0/9954852"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/div2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/id"
+            app:dividerColor="@color/btn"/>
+
+        <TextView
+            android:id="@+id/startSmen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Начало смены: Сегодня 08:12"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/id"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/endSmen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Плановый конец смены: Сегодня 22:00"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/startSmen"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/div3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/endSmen"
+            app:dividerColor="@color/btn"/>
+
+        <TextView
+            android:id="@+id/prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Продано: 154 ед. на сумму 21 800₽"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/endSmen"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Денег в кассе: 54 374, 98₽"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/prod"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/div4"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/money"
+            app:dividerColor="@color/btn"/>
+
+        <TextView
+            android:id="@+id/obr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Количество брака за сегодня: 3"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/money"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/obrS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Штрафные баллы сменщика: 27"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/obr"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/div5"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/obrS"
+            app:dividerColor="@color/btn"/>
+
+        <TextView
+            android:id="@+id/spcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Специальныый код смены:"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/obrS"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/spcode"
+            android:src="@drawable/f7e60a672b8df1990a871b44ef79c274"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btn"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Открыть/закрыть смену"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

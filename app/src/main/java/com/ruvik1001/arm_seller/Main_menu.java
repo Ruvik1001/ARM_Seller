@@ -89,6 +89,13 @@ public class Main_menu extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.smena).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NewActiv.Click(Main_menu.this, MyChangeActivity.class);
+            }
+        });
+
         findViewById(R.id.quit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
