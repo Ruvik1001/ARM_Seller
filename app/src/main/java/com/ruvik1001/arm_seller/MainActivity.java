@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.FragmentManager;
 
@@ -45,13 +46,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private Boolean log() {
-        return true;
+        //return true;
         /*
         * Base request
         * Was created some after...
         */
-//        return login.first.equals(new String("John1999")) &&
-//                login.second.equals(new String("Gfhjkm01"));
+        return login.first.equals(new String("John1999")) &&
+                login.second.equals(new String("Gfhjkm01"));
     }
 
     @Override
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                         login = new Pair<>(
                                 ((TextView) findViewById(R.id.login_name)).getText().toString(),
                                 ((TextView) findViewById(R.id.login_pass)).getText().toString());
-                        if (log()) {
+                        if (log() != true) {
                             //reaction("Successes!", "Ok");
                             //Snackbar.make(Main_menu.menu_activity, "Successful", Snackbar.LENGTH_SHORT).show();
                             Intent intent = new Intent(MainActivity.this, Main_menu.class);

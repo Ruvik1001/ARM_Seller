@@ -17,45 +17,35 @@ public class SkladActivity extends AppCompatActivity {
         ((TextView) findViewById(R.id.menu_bar_1)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SkladActivity.this, Main_menu.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(SkladActivity.this,1);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_2)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SkladActivity.this, SkladActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(SkladActivity.this,2);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_3)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SkladActivity.this, PostuplenieActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(SkladActivity.this,3);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_4)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SkladActivity.this, MyProfileActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(SkladActivity.this,4);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_5)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SkladActivity.this, SettingsActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(SkladActivity.this,5);
             }
         });
     }

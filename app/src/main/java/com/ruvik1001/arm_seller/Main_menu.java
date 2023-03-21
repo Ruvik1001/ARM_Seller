@@ -31,48 +31,54 @@ public class Main_menu extends AppCompatActivity {
             Snackbar.make(Main_menu.menu_activity, getIntent().getStringExtra("reaction"), Snackbar.LENGTH_SHORT).show();
         }
 
+
+
         ((TextView) findViewById(R.id.menu_bar_1)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Main_menu.this, Main_menu.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(Main_menu.this,1);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_2)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Main_menu.this, SkladActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(Main_menu.this,2);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_3)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Main_menu.this, PostuplenieActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(Main_menu.this,3);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_4)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Main_menu.this, MyProfileActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(Main_menu.this,4);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_5)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Main_menu.this, SettingsActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(Main_menu.this,5);
+            }
+        });
+
+        findViewById(R.id.kvitan).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NewActiv.Click(Main_menu.this, AboutCheckActivity.class);
+            }
+        });
+
+        findViewById(R.id.quit).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NewActiv.Click(Main_menu.this, MainActivity.class, true);
             }
         });
     }

@@ -23,45 +23,35 @@ public class SettingsActivity extends AppCompatActivity {
         ((TextView) findViewById(R.id.menu_bar_1)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SettingsActivity.this, Main_menu.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(SettingsActivity.this,1);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_2)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SettingsActivity.this, SkladActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(SettingsActivity.this,2);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_3)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SettingsActivity.this, PostuplenieActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(SettingsActivity.this,3);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_4)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SettingsActivity.this, MyProfileActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(SettingsActivity.this,4);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_5)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SettingsActivity.this, SettingsActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(SettingsActivity.this,5);
             }
         });
     }

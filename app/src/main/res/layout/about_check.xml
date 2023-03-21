@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutCheckActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="45dp"
+                android:stretchColumns="0,1,2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="64 РВ 100103/С"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/h2" />
+
+                    <TextView
+                        android:id="@+id/date_doc"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginRight="15dp"
+                        android:paddingStart="0dp"
+                        android:text="TextView"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/h2" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/FIO_doc"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:paddingStart="0dp"
+                        android:text="TextView2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/h2"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/FIO_doc2"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:paddingStart="0dp"
+                        android:text="TextView2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/h2"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinner2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

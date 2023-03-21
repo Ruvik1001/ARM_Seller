@@ -14,25 +14,28 @@
         android:theme="@style/Theme.ARM_Seller"
         tools:targetApi="31">
         <activity
+            android:name=".AboutCheckActivity"
+            android:exported="false" />
+        <activity
             android:name=".SettingsActivity"
             android:exported="false"
             android:label="@string/title_activity_settings" />
         <activity
-            android:name=".my_options"
-            android:exported="false"
-            android:label="@string/title_activity_my_options" />
-        <activity
             android:name=".MyProfileActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Профиль" />
         <activity
             android:name=".PostuplenieActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Поступления" />
         <activity
             android:name=".SkladActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Склад" />
         <activity
             android:name=".Main_menu"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Главное меню" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

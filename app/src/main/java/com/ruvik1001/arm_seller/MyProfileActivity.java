@@ -2,6 +2,7 @@ package com.ruvik1001.arm_seller;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -21,6 +22,8 @@ public class MyProfileActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+
         setContentView(R.layout.my_profile);
 
         ArrayAdapter<CharSequence> adapterMe = ArrayAdapter.createFromResource(this, R.array.me, android.R.layout.simple_list_item_1);
@@ -40,45 +43,35 @@ public class MyProfileActivity extends AppCompatActivity {
         ((TextView) findViewById(R.id.menu_bar_1)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MyProfileActivity.this, Main_menu.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(MyProfileActivity.this,1);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_2)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MyProfileActivity.this, SkladActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(MyProfileActivity.this,2);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_3)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MyProfileActivity.this, PostuplenieActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(MyProfileActivity.this,3);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_4)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MyProfileActivity.this, MyProfileActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(MyProfileActivity.this,4);
             }
         });
 
         ((TextView) findViewById(R.id.menu_bar_5)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MyProfileActivity.this, SettingsActivity.class);
-                startActivity(intent);
-                finish();
+                NewActiv.init(MyProfileActivity.this,5);
             }
         });
     }
