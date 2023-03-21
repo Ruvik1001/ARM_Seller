@@ -7,16 +7,16 @@
     tools:context=".AboutCheckActivity">
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/img_1">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/img_1">
+
             <TableLayout
+                android:id="@+id/tlc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="45dp"
@@ -93,10 +93,45 @@
                 </TableRow>
 
             </TableLayout>
-        </LinearLayout>
 
 
+            <ListView
+                android:id="@+id/lvCheck"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/btnc"
+                android:layout_below="@id/tlc"
+                android:layout_marginStart="@dimen/marginLR"
+                android:layout_marginEnd="@dimen/marginLR"
+                android:layout_marginBottom="@dimen/marginLR"
+                android:divider="@drawable/divider" />
 
+            <Button
+                android:id="@+id/btnc"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="@dimen/marginLR"
+                android:layout_marginBottom="40dp"
+                android:layout_toStartOf="@id/btnc2"
+                android:backgroundTint="@color/btn"
+                android:gravity="center"
+                android:text="Добавить"
+                android:textSize="10sp" />
 
-    </ScrollView>
+            <Button
+                android:id="@+id/btnc2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="37dp"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="@color/btn"
+                android:gravity="center"
+                android:text="Сформировать"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -111,11 +111,11 @@
                     android:textSize="14sp" />
 
                 <Button
-                    android:id="@+id/printov"
+                    android:id="@+id/find"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/btn"
-                    android:text="Принять товар"
+                    android:text="Найти товар"
                     android:textColor="@color/black"
                     android:textSize="14sp" />
 

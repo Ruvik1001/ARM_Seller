@@ -3,17 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/app/src/main/res/drawable/divider.xml" value="0.301" />
         <entry key="..\:/AndroidStudio/app/src/main/res/drawable/empty_tall_divider.xml" value="0.295" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/about_check.xml" value="0.33" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_main.xml" value="0.21" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_main2.xml" value="0.22916666666666666" />
-        <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_main_menu.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_main_menu.xml" value="0.33" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_photo.xml" value="0.22916666666666666" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_settings.xml" value="0.2046875" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/comact_options.xml" value="0.21875" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/material_menu.xml" value="0.2921875" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/my_profile.xml" value="0.2046875" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/postuplenie.xml" value="0.18" />
+        <entry key="..\:/AndroidStudio/app/src/main/res/layout/report_about_defect.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidStudio/app/src/main/res/layout/serch.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/settings_activity.xml" value="0.21875" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/settings_pref.xml" value="0.21875" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/sklad.xml" value="0.25" />

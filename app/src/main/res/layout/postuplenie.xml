@@ -113,9 +113,9 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/btn"
                 android:gravity="center"
-                android:text="Добавить поступление"
-                android:backgroundTint="@color/btn"/>
+                android:text="Добавить поступление" />
         </RelativeLayout>
 
 

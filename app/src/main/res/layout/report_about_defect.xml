@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportAboutDefectActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Создание обращения №S0/RD.000134"
+            android:textColor="@color/black"
+            android:textSize="@dimen/h1"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:id="@+id/title" />
+
+        <TextView
+            android:id="@+id/instr_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="100dp"
+            android:gravity="center_horizontal"
+            android:text="Инструкция:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/h2" />
+
+        <TextView
+            android:id="@+id/instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/instr_title"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/DRInfo"
+            android:textColor="@color/black"
+            android:textSize="@dimen/h2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btn"
+            android:layout_below="@id/instruction"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:text="Прикрепить фото\nзаявки"
+            android:textSize="12dp"
+            android:id="@+id/pbtn"/>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -75,6 +75,20 @@ public class Main_menu extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.find).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NewActiv.Click(Main_menu.this, SerchActivity.class);
+            }
+        });
+
+        findViewById(R.id.brack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NewActiv.Click(Main_menu.this, ReportAboutDefectActivity.class);
+            }
+        });
+
         findViewById(R.id.quit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

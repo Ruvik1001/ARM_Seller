@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatDelegate;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -31,7 +32,11 @@ public class AboutCheckActivity extends AppCompatActivity {
         spinner.setAdapter(adapter);
 
         ((TextView)findViewById(R.id.date_doc)).setText("Дата: " + new SimpleDateFormat("HH:mm dd.MM.yy").format(new Date()));
-        ((TextView)findViewById(R.id.FIO_doc)).setText("ФИО заявителя: ");
-        ((TextView)findViewById(R.id.FIO_doc2)).setText("ФИО исполнителя: ");
+        ((TextView)findViewById(R.id.FIO_doc)).setText("Закакзчик: ");
+        ((TextView)findViewById(R.id.FIO_doc2)).setText("Исполнитль: ");
+
+        ArrayAdapter<CharSequence> arrayAdapter = ArrayAdapter.createFromResource(this, R.array.tovar, android.R.layout.simple_list_item_1);
+        ((ListView)findViewById(R.id.lvCheck)).setAdapter(arrayAdapter);
+
     }
 }
