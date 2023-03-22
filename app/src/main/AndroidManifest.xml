@@ -9,13 +9,42 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.ARM_Seller"
         tools:targetApi="31">
         <activity
+            android:name=".StroyMaterialActivity"
+            android:exported="false"
+            android:label="Строительные материалы"/>
+        <activity
+            android:name=".PiloMaterialActivity"
+            android:exported="false"
+            android:label="Пиломатериалы"/>
+        <activity
+            android:name=".HardwareActivity"
+            android:exported="false"
+            android:label="Скобяные изделия"/>
+        <activity
+            android:name=".PlitkaActivity"
+            android:exported="false"
+            android:label="Плитка"/>
+        <activity
+            android:name=".NapolniyActivity"
+            android:exported="false"
+            android:label="Напольные покрытия"/>
+        <activity
+            android:name=".KraskiActivity"
+            android:exported="false"
+            android:label="Краски"/>
+        <activity
+            android:name=".InstrumentyActivity"
+            android:exported="false"
+            android:label="Инструменты"/>
+        <activity
             android:name=".MyChangeActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Моя смена"/>
         <activity
             android:name=".ReportAboutDefectActivity"
             android:exported="false" />

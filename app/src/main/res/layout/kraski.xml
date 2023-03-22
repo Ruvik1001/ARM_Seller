@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SerchActivity">
-
+    tools:context=".KraskiActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,7 +12,7 @@
         android:background="@color/blue">
 
         <EditText
-            android:id="@+id/search_bar"
+            android:id="@+id/search_bar_kraski"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -21,12 +20,12 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
-            android:layout_toStartOf="@id/sbtn"
+            android:layout_toStartOf="@id/sbtn_kraski"
             android:text="Введите искомый товар (напр. Кирпич)"
             android:textSize="@dimen/h2" />
 
         <Button
-            android:id="@+id/sbtn"
+            android:id="@+id/sbtn_kraski"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:width="50dp"
@@ -38,19 +37,21 @@
             android:layout_marginTop="5dp"/>
 
         <com.google.android.material.divider.MaterialDivider
-            android:id="@+id/div"
+            android:id="@+id/div_kraski"
             android:layout_width="match_parent"
             android:layout_height="5dp"
-            android:layout_below="@id/search_bar"
+            android:layout_below="@id/search_bar_kraski"
             android:layout_marginTop="10dp"
             app:dividerColor="@color/btn"/>
 
         <ListView
+            android:id="@+id/lvs_kraski"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/div"
-            android:layout_margin="30dp"
-            android:id="@+id/lvs"/>
+            android:layout_below="@id/div_kraski"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp" />
     </RelativeLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

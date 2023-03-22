@@ -99,6 +99,8 @@
             android:layout_marginTop="@dimen/marginLoginBefore">
 
             <TableRow
+                android:id="@+id/instr_btn"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -123,6 +125,8 @@
             </TableRow>
 
             <TableRow
+                android:id="@+id/kraski_btn"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -147,6 +151,8 @@
             </TableRow>
 
             <TableRow
+                android:id="@+id/napol_btn"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -171,6 +177,8 @@
             </TableRow>
 
             <TableRow
+                android:id="@+id/plitk_btn"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -195,6 +203,8 @@
             </TableRow>
 
             <TableRow
+                android:id="@+id/skoby_btn"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -219,6 +229,8 @@
             </TableRow>
 
             <TableRow
+                android:id="@+id/pilo_btn"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -242,7 +254,10 @@
                     android:textColor="@color/black"/>
             </TableRow>
 
-            <TableRow android:layout_gravity="center"
+            <TableRow
+                android:id="@+id/stroy_btn"
+                android:clickable="true"
+                android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_height="70dp"
                 android:divider="@drawable/empty_tall_divider"

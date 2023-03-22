@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                         login = new Pair<>(
                                 ((TextView) findViewById(R.id.login_name)).getText().toString(),
                                 ((TextView) findViewById(R.id.login_pass)).getText().toString());
-                        if (log() != true) {
+                        if (log()) {
                             //reaction("Successes!", "Ok");
                             //Snackbar.make(Main_menu.menu_activity, "Successful", Snackbar.LENGTH_SHORT).show();
                             Intent intent = new Intent(MainActivity.this, Main_menu.class);

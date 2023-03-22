@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="instr">
+        <item>Шуруповёрт MAKITA 18ВТ</item>
+        <item>Шуруповёрт MAKITA 24ВТ</item>
+        <item>Шуруповёрт ПРОГРЕСС 14ВТ</item>
+        <item>Шуруповёрт ПРОГРЕСС 18ВТ</item>
+        <item>Шуруповёрт ПРОГРЕСС 24ВТ</item>
+        <item>Перфаратор DECO 3.5ДЖ</item>
+        <item>Перфаратор DECO 5ДЖ</item>
+        <item>Перфаратор MAKITA 5ДЖ</item>
+        <item>Перфаратор Прогресс 5ДЖ</item>
+        <item>Шлеф. машина ПРОГРЕСС</item>
+        <item>Шлеф. машина MAKITA</item>
+        <item>Шлеф. машина DECO</item>
+    </string-array>
+
+    <string-array name="kraski">
+        <item>Краска по дереву Дуб</item>
+        <item>Краска по дереву Ясень</item>
+        <item>Краска по дереву Чёрный</item>
+        <item>Краска по дереву Пепельный</item>
+        <item>Краска по дереву Белый</item>
+        <item>Краска по дереву Липа</item>
+        <item>Краска по дереву Оранжевый</item>
+        <item>Краска по дереву Бордовый</item>
+        <item>Краска по дереву Серый</item>
+        <item>Краска по дереву Ночь</item>
+        <item>Краска по дереву Коричневый</item>
+        <item>Краска по дереву Берюзовый</item>
+    </string-array>
+
+    <string-array name="napol">
+        <item>Ламинат цвет дуб</item>
+        <item>Ламинат цвет чёрный</item>
+        <item>Ламинат цвет белый</item>
+        <item>Ламинат цвет агро</item>
+        <item>Плинтус цвет дуб</item>
+        <item>Плинтус цвет чёрный</item>
+        <item>Плинтус цвет белый</item>
+        <item>Плинтус цвет агро</item>
+        <item>Кафель цвет дуб</item>
+        <item>Кафель цвет чёрный</item>
+        <item>Кафель цвет белый</item>
+        <item>Кафель цвет агро</item>
+    </string-array>
+
+    <string-array name="plitka">
+        <item>Плитка цвет белая</item>
+        <item>Плитка цвет агро</item>
+        <item>Плитка цвет бруно</item>
+        <item>Плитка цвет геро</item>
+        <item>Плитка цвет пинта</item>
+        <item>Плиточная замазка белая</item>
+        <item>Плиточная замазка агро</item>
+        <item>Плиточная замазка бруно</item>
+        <item>Плиточная замазка геро</item>
+        <item>Плиточная замазка пинта</item>
+        <item>Восстановитль цвета белый</item>
+        <item>Восстановитель цвета агро</item>
+    </string-array>
+
+    <string-array name="hard">
+        <item>Саморезы кровельные 9мм</item>
+        <item>Саморезы кровельные 16мм</item>
+        <item>Саморезы кровельные 21мм</item>
+        <item>Саморезы кровельные 26мм</item>
+        <item>Саморезы кровельные 34мм</item>
+        <item>Гвозди 9мм</item>
+        <item>Гвозди 16мм</item>
+        <item>Гвозди 21мм</item>
+        <item>Гвозди 26мм</item>
+        <item>Гвозди 34мм</item>
+        <item>Скобы для пистолета 10мм</item>
+        <item>Скобы для пистолета 15мм</item>
+    </string-array>
+
+    <string-array name="pilo">
+        <item>Фанера 1600х2500 8мм</item>
+        <item>Фанера 1600х2500 12мм</item>
+        <item>Фанера 1600х2500 18мм</item>
+        <item>Фанера 1600х2500 25мм</item>
+        <item>ОСБ 1600х2500 8мм</item>
+        <item>ОСБ 1600х2500 12мм</item>
+        <item>ОСБ 1600х2500 18мм</item>
+        <item>ОСБ 1600х2500 25мм</item>
+        <item>ДСП 1600х2500 8мм</item>
+        <item>ДСП 1600х2500 12мм</item>
+        <item>ДСП 1600х2500 18мм</item>
+        <item>ДСП 1600х2500 25мм</item>
+    </string-array>
+
+    <string-array name="stroy">
+        <item>Кирпич красный полый</item>
+        <item>Кирпич белый полый</item>
+        <item>Кирпич красный</item>
+        <item>Кирпич белый</item>
+        <item>Цемент 25кг</item>
+        <item>Цемент 50кг</item>
+        <item>Песок 50кг</item>
+        <item>Щебень 50кг</item>
+        <item>Гравий 50кг</item>
+        <item>Гипс 10кг</item>
+        <item>Шпаклёвка 10кг</item>
+        <item>Шпаклёвка 25кг</item>
+    </string-array>
+</resources>
