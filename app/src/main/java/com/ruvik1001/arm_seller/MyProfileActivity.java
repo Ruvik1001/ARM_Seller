@@ -1,21 +1,12 @@
 package com.ruvik1001.arm_seller;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
 
-import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-
-import java.util.Iterator;
-
-import kotlin.sequences.Sequence;
 
 public class MyProfileActivity extends AppCompatActivity {
 
@@ -40,6 +31,6 @@ public class MyProfileActivity extends AppCompatActivity {
         ((ListView)findViewById(R.id.lvMy)).setAdapter(adapterOptions);
 
 
-        MenuBbarSetter.activate_bar(this);
+        MenuBarSetter.activate_bar(this);
     }
 }

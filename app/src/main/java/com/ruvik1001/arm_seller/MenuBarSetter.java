@@ -6,7 +6,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MenuBbarSetter {
+public class MenuBarSetter {
+
     public static void activate_bar(Context current) {
         ((TextView) ((AppCompatActivity) current).findViewById(R.id.menu_bar_1)).setOnClickListener(new View.OnClickListener() {
             @Override

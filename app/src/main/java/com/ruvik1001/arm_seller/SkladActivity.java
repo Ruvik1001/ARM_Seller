@@ -2,11 +2,9 @@ package com.ruvik1001.arm_seller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TableRow;
-import android.widget.TextView;
 
 public class SkladActivity extends AppCompatActivity {
 
@@ -15,7 +13,7 @@ public class SkladActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sklad);
 
-        MenuBbarSetter.activate_bar(this);
+        MenuBarSetter.activate_bar(this);
 
         ((TableRow) findViewById(R.id.instr_btn)).setOnClickListener(new View.OnClickListener() {
             @Override
