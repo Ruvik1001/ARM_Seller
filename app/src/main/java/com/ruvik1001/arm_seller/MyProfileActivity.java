@@ -40,39 +40,6 @@ public class MyProfileActivity extends AppCompatActivity {
         ((ListView)findViewById(R.id.lvMy)).setAdapter(adapterOptions);
 
 
-        ((TextView) findViewById(R.id.menu_bar_1)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(MyProfileActivity.this,1);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_2)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(MyProfileActivity.this,2);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_3)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(MyProfileActivity.this,3);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_4)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(MyProfileActivity.this,4);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_5)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(MyProfileActivity.this,5);
-            }
-        });
+        MenuBbarSetter.activate_bar(this);
     }
 }

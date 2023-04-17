@@ -20,39 +20,6 @@ public class PostuplenieActivity extends AppCompatActivity {
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.post, android.R.layout.simple_list_item_1);
         lv.setAdapter(adapter);
 
-        ((TextView) findViewById(R.id.menu_bar_1)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(PostuplenieActivity.this,1);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_2)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(PostuplenieActivity.this,2);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_3)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(PostuplenieActivity.this,3);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_4)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(PostuplenieActivity.this,4);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_5)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(PostuplenieActivity.this,5);
-            }
-        });
+        MenuBbarSetter.activate_bar(this);
     }
 }

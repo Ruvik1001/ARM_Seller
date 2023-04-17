@@ -15,40 +15,7 @@ public class SkladActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sklad);
 
-        ((TextView) findViewById(R.id.menu_bar_1)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(SkladActivity.this,1);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_2)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(SkladActivity.this,2);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_3)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(SkladActivity.this,3);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_4)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(SkladActivity.this,4);
-            }
-        });
-
-        ((TextView) findViewById(R.id.menu_bar_5)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NewActiv.init(SkladActivity.this,5);
-            }
-        });
+        MenuBbarSetter.activate_bar(this);
 
         ((TableRow) findViewById(R.id.instr_btn)).setOnClickListener(new View.OnClickListener() {
             @Override

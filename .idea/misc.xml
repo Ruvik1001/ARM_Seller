@@ -12,11 +12,15 @@
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_photo.xml" value="0.22916666666666666" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/activity_settings.xml" value="0.2046875" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/comact_options.xml" value="0.21875" />
+        <entry key="..\:/AndroidStudio/app/src/main/res/layout/hardware.xml" value="0.17604166666666668" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/instrumenty.xml" value="0.1" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/kraski.xml" value="0.2421875" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/material_menu.xml" value="0.2921875" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/my_change.xml" value="0.2557291666666667" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/my_profile.xml" value="0.2046875" />
+        <entry key="..\:/AndroidStudio/app/src/main/res/layout/napolniy.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidStudio/app/src/main/res/layout/pilo_material.xml" value="0.17604166666666668" />
+        <entry key="..\:/AndroidStudio/app/src/main/res/layout/plitka.xml" value="0.17604166666666668" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/postuplenie.xml" value="0.18" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/report_about_defect.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/serch.xml" value="0.38697916666666665" />
@@ -24,6 +28,7 @@
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/settings_pref.xml" value="0.21875" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/sklad.xml" value="0.25" />
         <entry key="..\:/AndroidStudio/app/src/main/res/layout/spinner_item.xml" value="0.3729166666666667" />
+        <entry key="..\:/AndroidStudio/app/src/main/res/layout/stroy_material.xml" value="0.17604166666666668" />
         <entry key="..\:/AndroidStudio/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.296" />
         <entry key="..\:/AndroidStudio/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.296" />
         <entry key="..\:/AndroidStudio/app/src/main/res/xml/bar.xml" value="0.3296875" />
